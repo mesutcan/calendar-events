@@ -2,6 +2,8 @@
 
 Things to consider:
 
+* I am using Ruby 2.4.2 and Rails 5.1.4
+
 * bundle install and then rails s
 
 * To populate the initial calendar objects, you need to run localhost:3000/calendars/create_events
