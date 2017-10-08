@@ -1,0 +1,18 @@
+<h1>Edit calendar</h1>
+ 
+<%= form_with(model: @calendar) do |form| %>
+  <p>
+    <%= form.label :title %><br>
+    <%= form.text_field :title, readonly: true %>
+  </p>
+ 
+  <p>
+    <%= form.label :launch_date %><br>
+    <%= form.date_select :launch_date %>
+  </p>
+ 
+  <p>
+    <%= form.submit %>
+  </p>
+ 
+<% end %>
