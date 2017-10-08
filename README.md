@@ -15,5 +15,3 @@ Things to consider:
 * Services (CalendarEventService, DateService, ThumbnailService, TitleService)
 
 * Using Rails erb templates because of time constraint. Can be replaced with Angular or React. A good example would be to use Create React App(https://github.com/facebookincubator/create-react-app) which lets us to create React apps with no build configuration.
-
-# calendar-events
