@@ -6,6 +6,8 @@ Things to consider:
 
 * To populate the initial calendar objects, you need to run localhost:3000/calendars/create_events
 
+* Using SQLite for data store. This should be converted to MySQL or PostgreSQL for large volume data sets.
+
 * To run tests: bundle exec rspec
 
 * I have a spec/model test and a spec/request test
