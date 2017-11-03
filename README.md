@@ -2,11 +2,14 @@
 
 Things to consider:
 
-* The purpose of the app is: Consume calendar events through an API(https://orion-takehome.herokuapp.com/) and save them to the database. After the events have been created, user can see events scheduled for a certain year/month and they can later on edit and save the launch date of the event.
+* The purpose of the app is: Consume calendar events through an API(https://orion-takehome.herokuapp.com/) and create calendar events. This is a single API with 3 different endpoints. Endpoints are secured with an Authorization header. I use tokens to retrieve data from them.(Each token is in their corresponding Service Class: DateService, ThumbnailService, TitleService)
 
-* I am using Ruby 2.4.2 and Rails 5.1.4
+* After the events have been created, users can see events scheduled for a certain year/month and they can later on edit and save the launch date of the event.
 
-* To run the project on your localhost, do:  bundle install and then rails s
+* I am using Ruby 2.4.2 and Rails 5.1.4(You need to install these specific versions to run the app on your localhost)
+
+* To run the project on your localhost after installing Ruby and Rails specific versions, do:
+bundle install and then rails s
 
 * To populate the initial calendar objects, you need to run localhost:3000/calendars/create_events
 
